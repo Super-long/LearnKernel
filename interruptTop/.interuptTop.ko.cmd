@@ -1,0 +1,1 @@
+cmd_/home/lzl/Desktop/execise/learnKernal/interruptTop/interuptTop.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/lzl/Desktop/execise/learnKernal/interruptTop/interuptTop.ko /home/lzl/Desktop/execise/learnKernal/interruptTop/interuptTop.o /home/lzl/Desktop/execise/learnKernal/interruptTop/interuptTop.mod.o ;  true
