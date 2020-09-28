@@ -1,0 +1,1 @@
+cmd_/home/lzl/Desktop/execise/LearnKernel/page_table/page_table.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/lzl/Desktop/execise/LearnKernel/page_table/page_table.ko /home/lzl/Desktop/execise/LearnKernel/page_table/page_table.o /home/lzl/Desktop/execise/LearnKernel/page_table/page_table.mod.o ;  true
