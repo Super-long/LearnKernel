@@ -66,7 +66,7 @@ static unsigned long vaddr2paddr(unsigned long vaddr)
         printk("not mapped in pud\n");
         return -1;
     }
- 
+
     pmd = pmd_offset(pud, vaddr);
     printk("pmd_val = 0x%lx, pmd_index = %lu\n", pmd_val(*pmd),pmd_index(vaddr));
     if (pmd_none(*pmd)) {
