@@ -1,0 +1,1 @@
+cmd_/home/lzl/Desktop/execise/LearnKernel/file_system/myfs/myfs.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/lzl/Desktop/execise/LearnKernel/file_system/myfs/myfs.ko /home/lzl/Desktop/execise/LearnKernel/file_system/myfs/myfs.o /home/lzl/Desktop/execise/LearnKernel/file_system/myfs/myfs.mod.o ;  true
